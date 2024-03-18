@@ -38,7 +38,7 @@ p:last-of-type{font-size:15px;}
   a:visited{color:purple;}
 
   input[type="submit"]{
-    background-color:rgb(10, 145, 66);
+    background-color:rgb(10, 145, 65);
     display:block;
     width:35%;
     margin:1em auto;
