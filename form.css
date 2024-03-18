@@ -1,0 +1,57 @@
+body{width:100%;height:100vh; 
+     margin:0;
+     background-image:url(formpic.jpg);
+     background-color:rgba(197, 125, 16, 0);
+     background-size:cover;
+     height:100%;
+     
+    }
+
+
+h1{text-align: center; margin:1em auto}
+p{text-align: center;  margin:1em auto}
+
+
+.container{background-color:rgba(160, 123, 92, 0.692);
+         width:50%;
+         margin: 0 auto;
+       padding-bottom:1rem;
+          }
+
+label{display: block;
+    margin:0.5rem 0;
+     }
+
+
+textarea,select,input{width:100%;  margin: 10px 0 0 0;}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+p:last-of-type{font-size:15px;}
+
+  a:hover{color:white;}
+
+  a:visited{color:purple;}
+
+  input[type="submit"]{
+    background-color:rgb(10, 145, 66);
+    display:block;
+    width:35%;
+    margin:1em auto;
+    border-color:rgb(0, 0, 0);
+}
+
+
+fieldset:last-of-type{
+    border-bottom:none;
+}
+
+p[class="occupier"]{font-size:30px; padding-bottom:0}
+ .occupier{}
+
+
+ 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Linda Kulevome Affiliate Program Form</h1>
+        <p id="description" class="occupier"><em>A place for greatness with just Ghc300</em></p>
+    </header>
+    <main>
+        <div class="container">
+            <form action='https://register-demo.freecodecamp.org' method="post" id="survey-form">
+                <fieldset>
+                <label id="name-label" for="name">Name <input type="text" id="name" name="Fullname" required placeholder="John Doe"><label>
+                 <label  id="email-label" for="email">Email <input type="email" id="email" name="Email_Address" required placeholder="emailaddress@gmail.com"><label>
+                    <label for="password">Password <input type="password" id="password" name="PASSWORD" required placeholder="********** " pattern="[a-z0-5]{8,16}"><label></label>
+                    <label id="number-label" for="number">Age <input type="number" id="number" name="AGE" min="18" max="60"  placeholder="18" required ></label>
+                   <label for="dropdown">Primary Source of Income: 
+                       <select id="dropdown">
+                          <option value="">Select One</option>
+                           <option value="1">Grants</option>
+                           <option value="2">Loans</option>
+                           <option value="3">jobs</option>
+                           <option value="4">Savings</option>
+                           <option value="5">Others</option>
+                       </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>What is Your risk tolerance?
+                  <label for="20%"><input type="radio" name="risk-tolerance" value="0" id="20%" class="inline">Opened to risking 10%</label>
+                  <label for="50%"><input type="radio" name="risk-tolerance" value="1" id="50%" class="inline">Opened to risking 50%</label>
+                  <label for="70%"><input type="radio" name="risk-tolerance"  value="2" id="70%" class="inline">Opened to risking 70%<label>
+                    </label>
+
+                    <label  for="Picture">Upload 144px240p passport picture:<input type="file" id="Picture"></label>
+
+                    <label for="Nationality">Nationality
+                        <select id="Nationality">
+                           <option>Select One</option>
+                            <option>Nigeria</option>
+                            <option>Ghana</option>
+                            <option>South-Africa</option>
+                            <option>Kenya</option>
+                            <option>Togo</option>
+                        </select>
+                     </label>
+                     <label for="bio">Provide a bio: <textarea id="bio" rows="3" cols="30" name="bio" placeholder="I like coding on the beach..."></textarea></label>
+                </fieldset>
+              
+
+                <fieldset>
+             <label>Select your preferred payment methods
+              <label><input type="checkbox" class="inline" value="10">Paypal</label>
+              <label><input type="checkbox" class="inline" value="11">Payoneer</label>
+              <label><input type="checkbox" class="inline" value="12">Skrill</label>
+              <label><input type="checkbox" class="inline" value="13">Perfect Money</label>
+              <label><input type="checkbox" class="inline" value="14">Wire Transfer</label>
+              </label>
+              <p>By the law of ART104.6 constitution, you <strong>accept</strong> that the information provided is accurate and <strong>agree</strong> the terms and condition</p>
+              <label><input type="checkbox" value="1" required id="Terms-and-condition" name="terms and conditiion" class="inline" ><em>I agree to the</em> <a href="menu.html" target="_blank">terms and conditions</a></label>
+                </fieldset>
+
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+      
+    </main>
+</body>
+</html>
